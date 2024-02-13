@@ -1,0 +1,11 @@
+.end-page{
+    background-color:#111120;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+.end-page a{
+    color: royalblue;
+    text-decoration: none;
+}

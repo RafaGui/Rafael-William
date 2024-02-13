@@ -1,0 +1,50 @@
+.aboutMe{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.aboutMe-content{
+    width: 100%;
+    padding: 1rem;
+    max-width: 1000px;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.local-image-about{
+    width: 100%;
+    max-width: 350px;
+    border-radius: .5rem;
+    /* height: 250px; */
+    /* background-color: #000; */
+}
+.local-image-about img{
+    width: 100%;
+    border-radius: .5rem;
+    height: 100%;
+    object-fit: cover;
+}
+.local-text-about{
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+}
+.local-text-about h2{
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.local-text-about p{
+    color: #ffffff8d;
+}
+.local-text-about .local-btn{
+    justify-content: start;
+    padding: 1rem 0rem;
+}

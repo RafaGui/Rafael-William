@@ -1,0 +1,46 @@
+.habilidades{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    /* height: 70vh; */
+}
+.habilidades-content{
+    padding: 1rem;
+}
+
+
+.cards{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cccccc54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    border-radius: 1rem;
+    transition: .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(.97);
+}
+.card i{
+    font-size: 2rem;
+    color: #ac81e4;
+}
+.card span{
+    font-size: .8rem;
+    color: #cccccc54;
+}
